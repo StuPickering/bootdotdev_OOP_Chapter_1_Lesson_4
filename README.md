@@ -13,5 +13,5 @@ previously completed:
 
 current progress:
 - Chapter 1 lesson 4: 
-    - Lesson [ ]
+    - Lesson [X]
     - Twist [ ]
