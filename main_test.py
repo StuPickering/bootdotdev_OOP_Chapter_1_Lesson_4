@@ -37,13 +37,11 @@ def test(input1, input2, expected_output):
     print(f"  attacks_per_second: {input2['attacks_per_second']}")
     print(f"Expected: {expected_output}")
     try:
-        result = fight_soldiers(input1, input2)
+        result, actualSoldierOneDps, actualSoldierTwoDps = fight_soldiers(input1, input2)
         print(f"Actual:   {result}")
         if result != expected_output:
             print("Fail")
             return False
-        actualSoldierOneDps = get_soldier_dps(input1)
-        actualSoldierTwoDps = get_soldier_dps(input2)
         expectedSoldierOneDps = input1["damage"] * input1["attacks_per_second"]
         expectedSoldierTwoDps = input2["damage"] * input2["attacks_per_second"]
         if actualSoldierOneDps != expectedSoldierOneDps:
