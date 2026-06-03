@@ -14,4 +14,5 @@ previously completed:
 current progress:
 - Chapter 1 lesson 4: 
     - Lesson [X]
-    - Twist [ ]
+    - Twist [X]
+    Further twist could be added, to add more files to split calculation, logic, and test.
